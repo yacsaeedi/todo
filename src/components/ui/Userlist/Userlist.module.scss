@@ -1,0 +1,70 @@
+.containerTable{
+    margin: 2rem 4rem;
+    border: solid 2px #4f0048;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 85vw;
+    .headerTable{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        border-bottom: solid 1px #4f0048;
+        padding: .5rem 0rem;
+        // span{
+        // color: rgb(82, 81, 81);
+        // }
+    }
+    .itemBox{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+    .itemBorder {
+        border-bottom: solid 1px #4f0048;
+    }
+    .fildFlex1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: .5rem 0rem;
+        margin: 0 5px;
+        flex: 1;
+    }
+    .fristItem{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: .5rem 0rem;
+        margin: 0 5px;
+        flex: .5;
+    }
+    .fildFlex3{
+        display: flex;
+        width: 27%;
+        align-items: center;
+        justify-content: center;
+        padding: .5rem 0rem;
+        flex: 2.5;
+    }
+    span{
+        font-size: .8rem;
+        font-family:"IranSans";
+        color: rgb(133, 133, 133);
+        text-align: center;
+        direction: rtl;
+        @media (max-width: 768px) { 
+            font-size: .5rem;
+         }
+         @media (max-width: 400px) { 
+            font-size: .4rem;
+         }
+    }
+    
+}

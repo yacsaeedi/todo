@@ -1,0 +1,130 @@
+//baseStyle
+.btnConatiner{
+    padding: .5rem .6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s;
+    background: #4f0048;
+    outline: none;
+
+};
+.btnConatiner:hover{
+    transition: all 0.2s;
+};
+
+.radiusStyle{
+    border-radius: .6rem;
+};
+.btnConatiner:focus{
+    outline: none;
+};
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center
+};
+.iconStyle{
+    margin-left: .5rem;
+}
+.titleStyle{
+   font-size: 1.3rem;
+   color: #fff;
+   text-align: center;
+   font-family:"IranSans"
+};
+.titleStyleSmall{
+    font-size: .8rem;
+    color: #fff;
+    text-align: center;
+    font-family:"IranSans"
+ };
+.titleStyleMedium{
+    font-size: .9rem;
+    color: #fff;
+    text-align: center;
+    font-family: "IranSans"
+}
+
+;
+//sizeStyle
+.smallSize{
+    width: 10rem;
+    font-size: 1rem;
+    padding: .6rem 0rem;
+    @media (max-width:768px) {
+        width: 5em;
+        padding: .3rem 0rem;
+    }
+};
+.mediumSize{
+    width: 14rem;
+};
+.largeSize{
+    width: 20rem;
+};
+
+// variant
+.primary{
+    background-color: #4f0048;
+};
+.primary:hover{
+    background-color: #3b0137;
+};
+.danger{
+    background-color: #c00f39;
+};
+.danger:hover{
+    background-color: #940527;
+};
+.success{
+    background-color: #08855f;
+};
+.success:hover{
+    background-color: #045e43;
+};
+.disable{
+    background-color: #bfbfbf;
+};
+.disable:hover{
+    background-color: #8d8d8d;
+};
+
+// textColor
+.outlineDangerText{
+    color: #c00f39;
+};
+.outlineContainedText{
+    color: #4f0048;
+};
+.outlineSuccessText{
+    color: #08855f;
+};
+.outlineDisabledText{
+    color: #818181 !important;
+};
+.containedText{
+    color:  #4b4b4b;
+};
+
+//modeStyle
+.outlineDangerMode{
+     border: solid 2px #c00f39;
+};
+.outlineContainedMode{
+     border: solid 2px #4f0048;
+};
+.outlineSuccessMode{
+     border: solid 2px #08855f;
+};
+.outlineDisabledMode{
+     border: solid 2px #818181;
+};
+.outlinedModeStyle{
+   background-color: #fff !important;
+//    border: solid 2px #09359e;
+};
+
+
+

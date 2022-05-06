@@ -1,0 +1,73 @@
+.container{
+   margin: 2rem 4rem;
+   padding: 1rem 2rem;
+   border: solid 2px #4f0048;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   flex-direction: row;
+   border-radius: 10px;
+   width: 85vw;
+   .form{
+      width: 100%;
+       .formContainer{
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          flex-direction: row-reverse;
+          border-radius: 10px;
+          @media (max-width: 600px) { 
+             justify-content: center;
+          }
+          @media (max-width: 992px) { 
+             justify-content: center;
+          }
+          @media (min-width: 1500px) { 
+             justify-content: end;
+          }
+            .span{
+               margin: .7rem 3rem;
+               outline-style: none;
+               padding: .4rem .3rem;
+               width: 14em;
+               @media (max-width: 600px) { 
+                  margin: .7rem .3rem;
+               }
+               @media (max-width: 992px) { 
+                  width: 30em;
+               }
+               @media (max-width: 600px) { 
+                  width: 25em;
+               }
+               @media (min-width: 1500px) { 
+                  width: 24em;
+               }
+            }
+         }
+   }
+   .btnContainer{
+       margin: 1rem 3rem 0rem 0rem;
+       display: flex;
+       justify-content: end;
+       @media (max-width: 992px) { 
+          justify-content: center;
+          margin: 1rem 0rem 0rem 0rem;
+       }
+   }
+   .title{
+      color: #fff;
+      font-size: 1.5rem;
+      font-family: "IranSans";
+   }
+   .headerText{
+      color: #4f0048;
+      font-size: 1.2rem;
+      font-family: "IranSans";
+      // border-bottom: solid 2px #4f0048;
+      margin: 0 3rem 2rem 0;
+      @media (max-width: 700px) { 
+          margin: 0 0rem 2rem 0;
+       }
+   }  
+}

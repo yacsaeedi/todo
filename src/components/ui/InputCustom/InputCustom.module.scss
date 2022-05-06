@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin: .7rem 3rem;
+    @media (max-width: 600px) { 
+        margin: .7rem .3rem;
+     }
+   
+     .input{
+        text-align:end;
+        outline-style: none;
+        border: solid 1.5px #ccc;
+        border-radius:6px;
+        padding: .6rem .3rem;
+        font-size:.8rem;
+        width: 18em;
+        font-family: "IranSans";
+        background-color: #fff;
+        @media (max-width: 992px) { 
+            width: 30em;
+         }
+        @media (max-width: 600px) { 
+            width: 20em;
+         }
+         @media (min-width: 1600px) { 
+            width: 24em;
+         }
+    }
+    .label{
+        font-size: .9rem;
+        color: rgb(66, 66, 66);
+         margin: 0 .4rem .5rem 0;
+        font-family: "IranSans";
+    }
+}
+.errorContainer {
+   height: 1.4rem;
+   width: 14em;
+   display: flex;
+   justify-content: end;
+   @media (max-width: 992px) {
+      width: 20em;
+   }
+
+   @media (max-width: 600px) {
+      width: 14em;
+   }
+
+   @media (min-width: 1500px) {
+      width: 24em;
+   }
+}
